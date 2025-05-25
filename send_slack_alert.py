@@ -3,7 +3,7 @@ import sys
 from datetime import datetime
 
 # Configuration
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL = "YOUR_SLACK_WEBHOOK"
 
 def send_slack_alert(error_line):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
